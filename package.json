@@ -1,0 +1,51 @@
+{
+  "name": "ai-taixiu-tonghop-v12",
+  "version": "12.0.0",
+  "description": "🎯 AI Tài Xỉu Tổng Hợp V12.0 - Full Edition. 7 game (LC79, HitClub, Max789, Sunwin) + 27 thuật toán + 10k mẫu cầu + Li_do cho mọi dự đoán + Dashboard HTML.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "run": "node server.js",
+    "check": "node --check server.js",
+    "test": "echo \"✅ Server sẵn sàng. Chạy: npm start\""
+  },
+  "keywords": [
+    "ai",
+    "taixiu",
+    "taixiumd5",
+    "lc79",
+    "tele68",
+    "hitclub",
+    "max789",
+    "sunwin",
+    "dice",
+    "prediction",
+    "pattern-recognition",
+    "markov-chain",
+    "ensemble",
+    "10k-pattern",
+    "fastify",
+    "api",
+    "dashboard"
+  ],
+  "author": "@cskhgiabao",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "fastify": "^4.28.1",
+    "@fastify/cors": "^9.0.1",
+    "node-fetch": "^3.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/ai-taixiu-v12.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/ai-taixiu-v12/issues"
+  },
+  "homepage": "https://github.com/your-username/ai-taixiu-v12#readme"
+}
